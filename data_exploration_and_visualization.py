@@ -3,7 +3,7 @@ from scipy.io import arff
 import pandas as pd
 
 # 1. Φόρτωση δεδομένων
-file_path = "C:/Users/ilias/OneDrive/Desktop/ΤΖΙΤΖΑ_2589_ΕΡΓΑΣΙΑ1/Training Dataset.arff"
+file_path = "C:/Your/file/path"
 data, meta = arff.loadarff(file_path)
 df = pd.DataFrame(data)
 
