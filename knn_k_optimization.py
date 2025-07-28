@@ -6,7 +6,7 @@ from scipy.io import arff
 import matplotlib.pyplot as plt
 
 # Φόρτωση δεδομένων ARFF
-file_path = "C:/Users/ilias/OneDrive/Desktop/ΤΖΙΤΖΑ_2589_ΕΡΓΑΣΙΑ1/Training Dataset.arff"
+file_path = "C:/Your/file/path"
 data, meta = arff.loadarff(file_path)
 
 # Δημιουργία DataFrame
